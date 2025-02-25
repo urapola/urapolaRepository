@@ -187,7 +187,7 @@
             if (!directionArray.Contains(direction.ToUpper()))
             {
                 Console.WriteLine("INVALID PLACE");
-                Environment.Exit(0);
+                return;
             }
         }
 
@@ -200,7 +200,7 @@
             else
             {
                 Console.WriteLine("INVALID MOVE");
-                Environment.Exit(0);
+                return;
             }
         }
     }
